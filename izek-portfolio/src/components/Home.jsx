@@ -13,7 +13,7 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
           I'm a Full Stack Developer
         </h2>
-        <p className="text-[8892b0] py-4 mx-w-[700px]">
+        <p className="text-[#8892b0] py-4 mx-w-[700px]">
           I'm a full stack web developer with experience in conceptual analysis,
           design, and research consultation.
         </p>
