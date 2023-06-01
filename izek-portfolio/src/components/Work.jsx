@@ -8,7 +8,7 @@ import workImg6 from "../assets/work/writeme_screencap.JPG";
 
 const Work = () => {
   return (
-    <div className="w-full md:h-screen text-gray-300 bg-[#0A192F]">
+    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0A192F]">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
