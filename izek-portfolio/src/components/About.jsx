@@ -17,14 +17,23 @@ const About = () => {
             <p>Hi. I'm Isaac, nice to meet you. Please take a look around.</p>
           </div>
           <div>
-            <p>
+            <p className="py-4">
               Full stack web developer with multidisciplinary experience.
               Curious about difficult problems and excited to create functional
               tools and interfaces that push boundaries and expectations.
+            </p>
+            <p className="py-4">
               Finding the edge of my understanding and going past it is what
               really excites me. In all the work I do; from web development, to
               research, to art, I try to push the limits and test what is
               possible. I am happiest in the midst of the weird and complicated.
+              My background is in academic philosophy, writing consultation,
+              interior design, kitchens, and even the floral industry. This
+              background has fueled my love for the big picture, conceptual
+              learning that I hold as my context on which I learn more applied
+              skills and build and design functional programs and art.
+            </p>
+            <p className="border-2 p-2">
               My background is in academic philosophy, writing consultation,
               interior design, kitchens, and even the floral industry. This
               background has fueled my love for the big picture, conceptual
