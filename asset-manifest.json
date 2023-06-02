@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/izek-portfolio/static/css/main.6b5e2d52.css",
-    "main.js": "/izek-portfolio/static/js/main.8495f6fa.js",
+    "main.js": "/izek-portfolio/static/js/main.c193ffbe.js",
     "static/media/climate_screencap.png": "/izek-portfolio/static/media/climate_screencap.9f439cf72ee9839dac65.png",
     "static/media/weather_screencap.JPG": "/izek-portfolio/static/media/weather_screencap.b3402d4f56ea38a6b641.JPG",
     "static/media/writeme_screencap.JPG": "/izek-portfolio/static/media/writeme_screencap.77c926c4a0122820db68.JPG",
@@ -16,10 +16,10 @@
     "static/media/javascript.png": "/izek-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/izek-portfolio/index.html",
     "main.6b5e2d52.css.map": "/izek-portfolio/static/css/main.6b5e2d52.css.map",
-    "main.8495f6fa.js.map": "/izek-portfolio/static/js/main.8495f6fa.js.map"
+    "main.c193ffbe.js.map": "/izek-portfolio/static/js/main.c193ffbe.js.map"
   },
   "entrypoints": [
     "static/css/main.6b5e2d52.css",
-    "static/js/main.8495f6fa.js"
+    "static/js/main.c193ffbe.js"
   ]
 }
