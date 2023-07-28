@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/izek.dev/static/css/main.6b5e2d52.css",
-    "main.js": "/izek.dev/static/js/main.b12d5f5d.js",
-    "static/media/climate_screencap.png": "/izek.dev/static/media/climate_screencap.9f439cf72ee9839dac65.png",
-    "static/media/weather_screencap.JPG": "/izek.dev/static/media/weather_screencap.b3402d4f56ea38a6b641.JPG",
-    "static/media/writeme_screencap.JPG": "/izek.dev/static/media/writeme_screencap.77c926c4a0122820db68.JPG",
-    "static/media/buildpoem_screencap.png": "/izek.dev/static/media/buildpoem_screencap.34af8e29ed61348f5669.png",
-    "static/media/bog_screencap.JPG": "/izek.dev/static/media/bog_screencap.052f2a7aa25aea5eb1a3.JPG",
-    "static/media/schedule_screencap.JPG": "/izek.dev/static/media/schedule_screencap.ac1eb90bab3f45d8253e.JPG",
-    "static/media/react.png": "/izek.dev/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/izek.dev/static/media/node.952a9ea986dcfa5229ad.png",
-    "static/media/mongo.png": "/izek.dev/static/media/mongo.2a1528ddc31d4ce8518d.png",
-    "static/media/html.png": "/izek.dev/static/media/html.2ba4fabc69a89a8f71e6.png",
-    "static/media/css.png": "/izek.dev/static/media/css.69a82c2d9e45c933a9cb.png",
-    "static/media/javascript.png": "/izek.dev/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
-    "index.html": "/izek.dev/index.html",
-    "main.6b5e2d52.css.map": "/izek.dev/static/css/main.6b5e2d52.css.map",
-    "main.b12d5f5d.js.map": "/izek.dev/static/js/main.b12d5f5d.js.map"
+    "main.css": "/izek-portfolio/static/css/main.6b5e2d52.css",
+    "main.js": "/izek-portfolio/static/js/main.2396fe71.js",
+    "static/media/climate_screencap.png": "/izek-portfolio/static/media/climate_screencap.9f439cf72ee9839dac65.png",
+    "static/media/weather_screencap.JPG": "/izek-portfolio/static/media/weather_screencap.b3402d4f56ea38a6b641.JPG",
+    "static/media/writeme_screencap.JPG": "/izek-portfolio/static/media/writeme_screencap.77c926c4a0122820db68.JPG",
+    "static/media/buildpoem_screencap.png": "/izek-portfolio/static/media/buildpoem_screencap.34af8e29ed61348f5669.png",
+    "static/media/bog_screencap.JPG": "/izek-portfolio/static/media/bog_screencap.052f2a7aa25aea5eb1a3.JPG",
+    "static/media/schedule_screencap.JPG": "/izek-portfolio/static/media/schedule_screencap.ac1eb90bab3f45d8253e.JPG",
+    "static/media/react.png": "/izek-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/izek-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/izek-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/izek-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css.png": "/izek-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/izek-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/izek-portfolio/index.html",
+    "main.6b5e2d52.css.map": "/izek-portfolio/static/css/main.6b5e2d52.css.map",
+    "main.2396fe71.js.map": "/izek-portfolio/static/js/main.2396fe71.js.map"
   },
   "entrypoints": [
     "static/css/main.6b5e2d52.css",
-    "static/js/main.b12d5f5d.js"
+    "static/js/main.2396fe71.js"
   ]
 }
