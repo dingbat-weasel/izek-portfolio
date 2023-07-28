@@ -1,8 +1,8 @@
 {
   "name": "izek-portfolio",
   "version": "0.1.0",
-  "homepage": "https://dingbat-weasel.github.io/izek-portfolio",
-  "private": true,
+  "homepage": "https://dingbat-weasel.github.io/",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
