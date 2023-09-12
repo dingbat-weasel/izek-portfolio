@@ -1,14 +1,14 @@
 /** @type {import('tailwindcss').Config} */
-module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: "DM Sans, sans-serif",
+    },
+
     extend: {
-      colors: {
-        bgColor: "var(--bgColor)",
-        textColor1: "var(--textColor1)",
-        textColor2: "var(--textColor2)",
-        accentColor: "var(--accentColor)",
-        highlightColor: "var(--highlightColor)",
+      height: {
+        screen: "100dvh",
       },
     },
   },

@@ -1,38 +1,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
-@layer base {
-  body {
-    @apply font-[Lato];
-  }
-  li {
-    @apply px-4;
-    @apply cursor-pointer;
-  }
-}
-
-:root {
-  --bgColor: #5b8e7d;
-  --textColor1: rgb(228, 233, 240);
-  --textColor2: rgb(197, 195, 195);
-  --accentColor: #f4e285;
-  --highlightColor: #8cb369;
-}
-
-.content-div {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 250px;
-}
-
-.content-div:hover {
-  background-image: linear-gradient(
-    to right,
-    rgba(188, 75, 81, 0.5),
-    hsla(357, 46%, 52%, 0.9)
-  ) !important;
-}

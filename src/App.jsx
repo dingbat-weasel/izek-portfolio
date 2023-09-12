@@ -1,20 +1,21 @@
-import Navbar from "./components/Navbar";
+import PageLayout from "./components/PageLayout";
+
 import Home from "./components/Home";
 import About from "./components/About";
-import Skills from "./components/Skills";
+
 import Work from "./components/Work";
 import Contact from "./components/Contact";
+import Socials from "./components/Socials";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
+    <PageLayout>
       <Home />
       <About />
-      <Skills />
       <Work />
+      {/* <Socials /> */}
       <Contact />
-    </div>
+    </PageLayout>
   );
 }
 

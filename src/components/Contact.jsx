@@ -1,48 +1,75 @@
-import React from "react";
+import { Button } from "react-scroll";
+import Header from "./Header";
+import SectionLayout from "./SectionLayout";
 
-const Contact = () => {
+function Contact() {
   return (
-    <div
-      name="contact"
-      className="w-full h-screen bg-bgColor flex justify-center p-4"
-    >
-      <form
-        method="POST"
-        action="https://getform.io/f/91630e45-97f8-4389-88b1-ad5f20da5d02"
-        className="flex flex-col max-w-[600px] w-full"
-      >
-        <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-accentColor text-textColor1">
+    <SectionLayout>
+      <Header name={"Contact"} />
+      <div className="pb-24 sm:flex">
+        <form
+          method="POST"
+          action="https://getform.io/f/91630e45-97f8-4389-88b1-ad5f20da5d02"
+          className="mx-auto flex w-full max-w-[600px] flex-col py-8"
+        >
+          <input
+            className="bg-textColor1 p-2"
+            type="text"
+            placeholder="Name"
+            name="name"
+          />
+          <input
+            className="bg-textColor1 my-4 p-2"
+            type="text"
+            placeholder="Email"
+            name="email"
+          />
+          <textarea
+            className="bg-textColor1 p-2"
+            name="message"
+            placeholder="Message"
+            rows="10"
+          ></textarea>
+          <button className="font-semi-bold mx-6 my-4 w-24 self-center  rounded-full border border-zinc-900 bg-zinc-700 px-4 py-3 text-lg text-zinc-200 hover:bg-zinc-800">
             Contact
-          </p>
-          <p className="text-textColor1 py-4">
-            Submit the form below or shoot me an email at perk.isaac@gmail.com
-          </p>
-        </div>
-        <input
-          className="bg-textColor1 p-2"
-          type="text"
-          placeholder="Name"
-          name="name"
-        />
-        <input
-          className="my-4 p-2 bg-textColor1"
-          type="text"
-          placeholder="Email"
-          name="email"
-        />
-        <textarea
-          className="bg-textColor1 p-2"
-          name="message"
-          placeholder="Message"
-          rows="10"
-        ></textarea>
-        <button className="text-white border-2 hover:bg-accentColor hover:border-accentColor hover:text-highlightColor px-4 py-3 my-8 mx-auto flex items-center">
-          Let's Collaborate
-        </button>
-      </form>
-    </div>
+          </button>
+        </form>
+        <ul className="mx-auto flex w-full max-w-[600px] flex-col items-center justify-around gap-8 py-8 text-4xl font-semibold underline sm:text-5xl">
+          {/* <li>Homepage</li> */}
+          <li className="hover:cursor-pointer hover:text-zinc-600">
+            <a
+              href="https://github.com/dingbat-weasel"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/isaac-perk/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:text-zinc-600"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://docs.google.com/document/d/1h5Q-RioAace4Af-7hE4zYnttEzq0DiNBjUV_lZQS7c4/edit?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:cursor-pointer hover:text-zinc-600"
+            >
+              Resume
+            </a>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+    </SectionLayout>
   );
-};
+}
 
 export default Contact;

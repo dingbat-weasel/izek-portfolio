@@ -1,21 +1,8 @@
-# izek Portfolio
+# React + Vite
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Link to site: [Site](izek.dev)
+Currently, two official plugins are available:
 
-## Description
-
-This is my first project using REACT. It is a simple portfolio website that I will use to showcase some of the things I have been working on. It is fully functional and I will continually update it as time goes on.
-
-![screenshot](portfolio_screencap.JPG)
-
-## Questions
-
-For questions/concerns you can reach me on [GitHub](https://github.com/dingbat-weasel) or by Email at perk.isaac@gmail.com.
-
----
-
-## License
-
-MIT License
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
