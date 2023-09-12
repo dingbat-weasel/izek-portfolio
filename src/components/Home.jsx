@@ -1,4 +1,4 @@
-import burge_crowning from "../assets/burge_crowning.jpg";
+import burge_crowning from "/assets/burge_crowning.jpg";
 import { FaArrowDown } from "react-icons/fa";
 import Navbar from "./Navbar";
 import { Link } from "react-scroll";
