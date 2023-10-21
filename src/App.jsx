@@ -1,21 +1,17 @@
-import PageLayout from "./components/PageLayout";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 
-import Home from "./components/Home";
-import About from "./components/About";
-
-import Work from "./components/Work";
-import Contact from "./components/Contact";
-import Socials from "./components/Socials";
+import CV from "./pages/cv/CV";
+import Home from "./pages/home/Home";
 
 function App() {
   return (
-    <PageLayout>
-      <Home />
-      <About />
-      <Work />
-      {/* <Socials /> */}
-      <Contact />
-    </PageLayout>
+    <BrowserRouter>
+      <Routes>
+        <Route index element={<Navigate replace to="home" />} />
+        <Route path="home" element={<Home />} />
+        <Route path="cv" element={<CV />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

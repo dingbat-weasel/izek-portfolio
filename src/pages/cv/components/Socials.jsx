@@ -1,5 +1,5 @@
 import Header from "./Header";
-import SectionLayout from "./SectionLayout";
+import SectionLayout from "../SectionLayout";
 
 function Socials() {
   return (

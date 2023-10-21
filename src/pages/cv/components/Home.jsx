@@ -14,7 +14,7 @@ function Home() {
       </div>
       <div className="flex justify-center text-center sm:justify-start sm:text-left">
         <h1 className="px-4 py-3 text-6xl font-semibold text-zinc-900 md:text-8xl">
-          Full Stack <br /> Developer
+          Web Developer
         </h1>
       </div>
       <div className="flex justify-center ">

@@ -1,5 +1,5 @@
 import Header from "./Header";
-import SectionLayout from "./SectionLayout";
+import SectionLayout from "../SectionLayout";
 
 import white_stair from "/assets/white_stair.jpg";
 

@@ -1,6 +1,6 @@
 import Header from "./Header";
 import ProjectCard from "./ProjectCard";
-import SectionLayout from "./SectionLayout";
+import SectionLayout from "../SectionLayout";
 
 function Work() {
   const projects = [
