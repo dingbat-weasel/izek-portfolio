@@ -1,8 +1,8 @@
-import About from "./components/About";
+import About from "./About";
 import CVPageLayout from "./CVPageLayout";
-import Contact from "./components/Contact";
-import Home from "./components/Home";
-import Work from "./components/Work";
+import Contact from "./Contact";
+import Home from "./Home";
+import Work from "./Work";
 
 function CV() {
   return (
