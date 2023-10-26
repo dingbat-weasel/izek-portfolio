@@ -15,10 +15,18 @@ function Work() {
     {
       title: "Monostich",
       img: "/assets/monostich.jpg",
-      p1: "Full stack social media site. Users create poems using a feature that emulates fridge magnet poetry. Can share  to their page and view pages of other users.",
+      p1: "Full stack social media site. Users create poems using a feature that emulates fridge magnet poetry. Can share  to their profile and view profiles of other users.",
       p2: "Utilizes the React and MUI component library on the frontend, GraphQL, Express, and MongoDB on the backend.",
       liveLink: "https://monostich-132ed184814a.herokuapp.com/",
       repoLink: "https://github.com/dingbat-weasel/monostich",
+    },
+    {
+      title: "The Wild Oasis",
+      img: "/assets/wild_oasis.jpg",
+      p1: "Administrative portal for luxury cabin retreat. Features simple and clear UI demonstrating cabins available, bookings made by guests, as well as a dashboard displaying analytics and check in/out features. Sample user login available on login page, feel free to explore the options available.",
+      p2: "Utilizes React Query, Context API, Styled Components, and react-router as well as a backend using Supabase",
+      liveLink: "https://the-wild-oasis-izek.vercel.app",
+      repoLink: "https://github.com/dingbat-weasel/the-wild-oasis",
     },
     // {
     //   title: "",
