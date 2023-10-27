@@ -7,6 +7,12 @@ export default {
     },
 
     extend: {
+      gridTemplateColumns: {
+        layout: "26rem, 1fr",
+      },
+      gridTemplateRows: {
+        layout: "auto, 1fr",
+      },
       height: {
         screen: "100svh",
       },
