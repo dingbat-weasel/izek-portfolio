@@ -7,11 +7,11 @@ const navItems = [
     link: "/sandbox/chapter1",
   },
   {
-    title: "chapter2",
+    title: "algorithms",
     items: [
-      { title: "item1", link: "/sandbox/chapter2/item1" },
-      { title: "item2", link: "/sandbox/chapter2/item2" },
-      { title: "item3", link: "/sandbox/chapter2/item3" },
+      { title: "search", link: "/sandbox/algorithms/search" },
+      { title: "sort", link: "/sandbox/algorithms/sort" },
+      { title: "etc", link: "/sandbox/chapter2/item3" },
     ],
   },
   {

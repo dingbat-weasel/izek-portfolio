@@ -20,11 +20,14 @@ function NavItem({ title, link, items = [] }) {
 
   return (
     <li>
-      <span onClick={handleClick}>{title}</span>
-      {open &&
-        items.map((item, index) => (
-          <NavItem title={item.title} to={item.link} key={index} />
-        ))}
+      <NavLink to={link}>
+        <span onClick={handleClick}>{title}</span>
+
+        {open &&
+          items.map((item, index) => (
+            <NavItem title={item.title} link={item.link} key={index} />
+          ))}
+      </NavLink>
     </li>
   );
 }
