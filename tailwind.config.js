@@ -8,7 +8,7 @@ export default {
 
     extend: {
       gridTemplateColumns: {
-        layout: "26rem, 1fr",
+        layout: "20rem, 1fr",
       },
       gridTemplateRows: {
         layout: "auto, 1fr",
