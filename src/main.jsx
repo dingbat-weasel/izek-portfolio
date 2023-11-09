@@ -9,10 +9,11 @@ import CV from "./pages/CV";
 import Home from "./pages/Home";
 import Algorithms from "./pages/Algorithms";
 import Palimpsest from "./pages/Palimpsest";
-import PageNotFound from "./pages/PageNotFound";
+
 import ErrorPage from "./pages/ErrorPage";
 import LeetcodeNav from "./features/algorithms/leetcode/LeetcodeNav";
 import TwoSum from "./features/algorithms/leetcode/problems/TwoSum";
+import KnightsOptions from "./pages/KnightsOptions";
 
 const router = createBrowserRouter([
   {
@@ -28,14 +29,22 @@ const router = createBrowserRouter([
       {
         path: "/algorithms/leetcode",
         element: <LeetcodeNav />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/algorithms/leetcode/two_sum",
         element: <TwoSum />,
+        errorElement: <ErrorPage />,
+      },
+      {
+        path: "knights_options",
+        element: <KnightsOptions />,
+        errorElement: <ErrorPage />,
       },
       {
         path: "/palimpsest",
         element: <Palimpsest />,
+        errorElement: <ErrorPage />,
       },
     ],
   },
