@@ -7,10 +7,6 @@ const navItems = [
     link: "/palimpsest",
   },
   {
-    title: "knight's options",
-    link: "/knights_options",
-  },
-  {
     title: "algorithms",
     link: "/algorithms",
   },
