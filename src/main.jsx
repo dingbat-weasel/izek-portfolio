@@ -6,14 +6,13 @@ import "./index.css";
 
 import AppLayout from "./ui/AppLayout";
 import CV from "./pages/CV";
-import Home from "./pages/Home";
 import Algorithms from "./pages/Algorithms";
 import Palimpsest from "./pages/Palimpsest";
 
 import ErrorPage from "./pages/ErrorPage";
 import LeetcodeNav from "./features/algorithms/leetcode/LeetcodeNav";
 import TwoSum from "./features/algorithms/leetcode/problems/TwoSum";
-import KnightsOptions from "./pages/KnightsOptions";
+import Post, { loader as postLoader } from "./features/palimpsest/Post";
 
 const router = createBrowserRouter([
   {
@@ -37,14 +36,18 @@ const router = createBrowserRouter([
         errorElement: <ErrorPage />,
       },
       {
-        path: "knights_options",
-        element: <KnightsOptions />,
-        errorElement: <ErrorPage />,
-      },
-      {
         path: "/palimpsest",
         element: <Palimpsest />,
         errorElement: <ErrorPage />,
+        children: [
+          {
+            path: "post/:postId",
+            element: <Post />,
+            loader: postLoader,
+
+            errorElement: <ErrorPage />,
+          },
+        ],
       },
     ],
   },
