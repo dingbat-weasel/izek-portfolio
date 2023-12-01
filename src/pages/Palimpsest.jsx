@@ -5,9 +5,6 @@ function Palimpsest() {
   return (
     <>
       <PalimpsestNav />
-      <main>
-        <Outlet />
-      </main>
     </>
   );
 }

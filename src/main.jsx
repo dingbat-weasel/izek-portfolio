@@ -12,7 +12,7 @@ import Palimpsest from "./pages/Palimpsest";
 import ErrorPage from "./pages/ErrorPage";
 import LeetcodeNav from "./features/algorithms/leetcode/LeetcodeNav";
 import TwoSum from "./features/algorithms/leetcode/problems/TwoSum";
-import Post, { loader as postLoader } from "./features/palimpsest/Post";
+import Post from "./features/palimpsest/Post";
 
 const router = createBrowserRouter([
   {
@@ -43,7 +43,6 @@ const router = createBrowserRouter([
           {
             path: "post/:postId",
             element: <Post />,
-            loader: postLoader,
 
             errorElement: <ErrorPage />,
           },

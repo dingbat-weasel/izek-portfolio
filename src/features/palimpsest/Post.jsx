@@ -1,12 +1,11 @@
-import { useLoaderData } from "react-router-dom";
-
-function Post() {
-  const post = useLoaderData();
-  return <div>{post}</div>;
+function Post({ title, createdAt, content }) {
+  return (
+    <div>
+      <header>{title}</header>
+      <div>{createdAt}</div>
+      <main>{content}</main>
+    </div>
+  );
 }
 
-export async function loader() {
-  const post = "sample post";
-  return post;
-}
 export default Post;
