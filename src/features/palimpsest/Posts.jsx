@@ -1,8 +1,10 @@
+import { useParams } from "react-router-dom";
 import Post from "./Post";
 import { postData } from "./data/posts";
 
 function Posts() {
-  const { id, title, createdAt, content } = postData[0];
+  let { postId } = useParams();
+  const { title, createdAt, content } = postData[postId];
 
   return <Post title={title} createdAt={createdAt} content={content} />;
 }
