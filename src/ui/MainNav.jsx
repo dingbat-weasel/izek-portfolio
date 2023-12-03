@@ -1,9 +1,10 @@
 import NavItem from "./NavItem";
+import { postData } from "../features/palimpsest/data/posts";
 
 const navItems = [
   {
     title: "blog",
-    link: "/palimpsest",
+    link: `/palimpsest/post/${postData.at(-1).id}`,
   },
   {
     title: "algorithms",

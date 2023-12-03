@@ -1,10 +1,12 @@
-import { Outlet } from "react-router-dom";
 import PalimpsestNav from "../features/palimpsest/PalimpsestNav";
+
+import Posts from "../features/palimpsest/Posts";
 
 function Palimpsest() {
   return (
     <>
       <PalimpsestNav />
+      <Posts />
     </>
   );
 }
