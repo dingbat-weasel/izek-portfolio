@@ -17,7 +17,13 @@ function Post({ id, title, createdAt, content }) {
     >
       <header className="pt-4 text-4xl">{title}</header>
       <div className="px-6 py-1 text-end">{createdAt}</div>
-      <main className="py-4">{content}</main>
+      <main className="py-4">
+        {content.map((p, i) => (
+          <p className="py-2 text-justify" key={i}>
+            {content[i]}
+          </p>
+        ))}
+      </main>
     </div>
   );
 }
