@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import { leetcode_problems } from "../../../data/leetcode";
+import { leetcode_problems } from "../data/leetcode";
 
 function LeetcodeNav() {
   return (
