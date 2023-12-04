@@ -1,5 +1,4 @@
 import { useParams } from "react-router-dom";
-import { postData } from "./data/posts";
 
 function Post({ id, title, createdAt, content }) {
   let { postId: currentParamId } = useParams();
@@ -14,11 +13,11 @@ function Post({ id, title, createdAt, content }) {
 
   return (
     <div
-      className={`absolute ${quality} transition-opacity delay-150 duration-500 ease-in`}
+      className={`${quality} absolute transition-opacity delay-150 duration-500 ease-in`}
     >
-      <header>{title}</header>
-      <div>{createdAt}</div>
-      <main>{content}</main>
+      <header className="pt-4 text-4xl">{title}</header>
+      <div className="px-6 py-1 text-end">{createdAt}</div>
+      <main className="py-4">{content}</main>
     </div>
   );
 }

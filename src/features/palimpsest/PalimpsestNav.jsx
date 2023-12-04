@@ -11,15 +11,21 @@ function PalimpsestNav() {
   const { id: nextPostId, title: nextTitle } = postData[currentId + 1] || {};
 
   return (
-    <div className="flex items-center justify-center gap-10 border-b-zinc-100 bg-zinc-300 px-20 py-5 ">
-      {previousTitle && (
+    <div className="grid grid-cols-3 gap-10 border-b-zinc-100 bg-zinc-300 px-20 py-5 ">
+      {previousTitle ? (
         <Link to={`/palimpsest/post/${previousPostId}`}>
           &lt;- {previousTitle}
         </Link>
+      ) : (
+        <div></div>
       )}
-      <div>{currentTitle}</div>
-      {nextTitle && (
-        <Link to={`/palimpsest/post/${nextPostId}`}>{nextTitle}-&gt;</Link>
+      <div className="text-center">{currentTitle}</div>
+      {nextTitle ? (
+        <Link to={`/palimpsest/post/${nextPostId}`} className="text-end">
+          {nextTitle}-&gt;
+        </Link>
+      ) : (
+        <div></div>
       )}
     </div>
   );

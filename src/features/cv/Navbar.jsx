@@ -1,13 +1,12 @@
 import { Link } from "react-scroll";
+import { Link as RouterLink } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="bg-zinc-200">
       <ul className="flex h-20 text-lg font-semibold text-zinc-800 sm:items-center sm:justify-around ">
         <li>
-          <Link to="Home" offset={-100} smooth={true} duration={500}>
-            Isaac Perk
-          </Link>
+          <RouterLink to="/">Isaac Perk</RouterLink>
         </li>
         <li>
           Currently <br /> Open to Work
