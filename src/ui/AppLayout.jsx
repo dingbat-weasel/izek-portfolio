@@ -9,7 +9,7 @@ function AppLayout() {
         <div className="w-100% py-6 text-center text-4xl">izek</div>
         <MainNav />
       </Sidebar>
-      <main className="overflow-y-auto px-2 py-3">
+      <main className="h-screen overflow-y-auto px-2 py-3">
         <div className="mx-auto my-0 flex max-w-[120rem] flex-col gap-12">
           <Outlet />
         </div>

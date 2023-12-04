@@ -4,10 +4,10 @@ import Posts from "../features/palimpsest/Posts";
 
 function Palimpsest() {
   return (
-    <>
+    <div className="h-full">
       <PalimpsestNav />
       <Posts />
-    </>
+    </div>
   );
 }
 

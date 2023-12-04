@@ -4,9 +4,21 @@ import { postData } from "./data/posts";
 
 function Posts() {
   let { postId } = useParams();
-  const { title, createdAt, content } = postData[postId];
+  // const { title, createdAt, content } = postData[postId];
 
-  return <Post title={title} createdAt={createdAt} content={content} />;
+  return (
+    <div className="relative mx-40 my-14 h-auto">
+      {postData.map((post, i) => (
+        <Post
+          key={post.id}
+          id={post.id}
+          title={post.title}
+          createdAt={post.createdAt}
+          content={post.content}
+        />
+      ))}
+    </div>
+  );
 }
 
 export default Posts;
