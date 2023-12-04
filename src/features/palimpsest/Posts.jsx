@@ -1,14 +1,10 @@
-import { useParams } from "react-router-dom";
-import Post from "./Post";
 import { postData } from "./data/posts";
+import Post from "./Post";
 
 function Posts() {
-  let { postId } = useParams();
-  // const { title, createdAt, content } = postData[postId];
-
   return (
     <div className="relative mx-40 my-14 h-auto">
-      {postData.map((post, i) => (
+      {postData.map((post) => (
         <Post
           key={post.id}
           id={post.id}
