@@ -1,6 +1,10 @@
-const problem = {
-  id: 1,
+import LeetcodeLayout from "../../LeetcodeLayout";
+import ProblemDescription from "../../ProblemDescription";
+import Interactive from "./Interactive";
+
+const Problem_TwoSum = {
   title: "Two Sum",
+  navigator: "two_sum",
   problem: [
     "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
     "You may assume that each input would have exactly one solution, and you may not use the same element twice.",
@@ -22,11 +26,22 @@ const problem = {
   ],
 };
 
+const { title, navigator, problem, examples, constraints } = Problem_TwoSum;
+
 function TwoSum() {
   return (
-    <div>
-      <header>{problem.title}</header>
-    </div>
+    <LeetcodeLayout>
+      <ProblemDescription
+        title={title}
+        navigator={navigator}
+        problem={problem}
+        examples={examples}
+        constraints={constraints}
+      />
+      <Interactive />
+      <div></div>
+      <div>Description</div>
+    </LeetcodeLayout>
   );
 }
 

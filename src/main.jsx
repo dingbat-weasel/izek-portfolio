@@ -12,7 +12,7 @@ import Palimpsest from "./pages/Palimpsest";
 import ErrorPage from "./pages/ErrorPage";
 import PageNotFound from "./pages/PageNotFound";
 import LeetcodeNav from "./features/algorithms/leetcode/LeetcodeNav";
-import TwoSum from "./features/algorithms/leetcode/problems/TwoSum";
+import TwoSum from "./features/algorithms/leetcode/problems/TwoSum/TwoSum";
 import Post from "./features/palimpsest/Post";
 
 const router = createBrowserRouter([
