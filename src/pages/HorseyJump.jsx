@@ -1,20 +1,20 @@
 import { createContext, useState } from "react";
 import Board from "../features/horseyjump/Board";
 
-export const BoardContext = createContext(null);
+export const KnightContext = createContext(null);
 
 function HorseyJump() {
-  const [knightPosition, setKnightPosition] = useState("e4");
+  const [knightPosition, setKnightPosition] = useState({ x: 3, y: 4 });
 
   return (
-    <BoardContext.Provider
+    <KnightContext.Provider
       value={{
         knightPosition,
         setKnightPosition,
       }}
     >
       <Board />
-    </BoardContext.Provider>
+    </KnightContext.Provider>
   );
 }
 

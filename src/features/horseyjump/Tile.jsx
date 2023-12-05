@@ -1,14 +1,14 @@
 import { useContext } from "react";
-import { BoardContext } from "../../pages/HorseyJump";
+import { KnightContext } from "../../pages/HorseyJump";
+import Knight from "./Knight";
 
 function Tile({ variation, coordinates }) {
-  const { knightPosition } = useContext(BoardContext);
+  const { knightPosition } = useContext(KnightContext);
 
   return (
     <div className={`h-20 w-20 ${variation} grid place-content-center`}>
-      {coordinates === knightPosition && (
-        <img className="h-20 w-20" src="/assets/horseyjump/wN.png" />
-      )}
+      {coordinates.x}
+      {coordinates.y}
     </div>
   );
 }
