@@ -7,12 +7,17 @@ const navItems = [
     link: `/palimpsest/post/${postData.at(-1).id}`,
   },
   {
+    title: "cv",
+    link: "/cv",
+  },
+  {
     title: "algorithms",
     link: "/algorithms",
   },
+
   {
-    title: "cv",
-    link: "/cv",
+    title: "horsey jump",
+    link: "/horseyjump",
   },
 ];
 
