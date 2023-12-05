@@ -1,6 +1,7 @@
 import LeetcodeLayout from "../../LeetcodeLayout";
+import InteractiveLayout from "../../InteractiveLayout";
+import TwoSumInteractive from "./TwoSumInteractive";
 import ProblemDescription from "../../ProblemDescription";
-import Interactive from "./Interactive";
 
 const Problem_TwoSum = {
   title: "Two Sum",
@@ -31,7 +32,9 @@ const { title, navigator, problem, examples, constraints } = Problem_TwoSum;
 function TwoSum() {
   return (
     <LeetcodeLayout>
-      <Interactive />
+      <InteractiveLayout>
+        <TwoSumInteractive />
+      </InteractiveLayout>
       <ProblemDescription
         title={title}
         navigator={navigator}
