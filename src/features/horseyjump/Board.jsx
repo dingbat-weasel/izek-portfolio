@@ -13,6 +13,7 @@ function Board() {
       board.push(
         <Tile
           variation={variationInt % 2 === 0 ? "bg-zinc-600" : "bg-zinc-300"}
+          coordinates={`${horizontalAxis[j]}${verticalAxis[i]}`}
           key={`${horizontalAxis[j]}, ${verticalAxis[i]}`}
         />,
       );
