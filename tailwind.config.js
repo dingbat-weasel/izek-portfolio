@@ -16,6 +16,9 @@ export default {
       height: {
         screen: "100svh",
       },
+      backgroundImage: {
+        wN: "url('/assets/horseyjump/wN.png')",
+      },
     },
   },
   plugins: [],

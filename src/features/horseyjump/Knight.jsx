@@ -1,8 +1,6 @@
 function Knight() {
   return (
-    <div>
-      <img className="h-20 w-20" src="/assets/horseyjump/wN.png" />
-    </div>
+    <div className="bg-wN h-20 w-20 cursor-grab bg-cover bg-center bg-no-repeat active:cursor-grabbing"></div>
   );
 }
 
