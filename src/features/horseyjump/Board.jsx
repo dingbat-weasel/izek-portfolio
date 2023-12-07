@@ -59,6 +59,15 @@ function Board() {
       } else {
         activePiece.style.top = `${y}px`;
       }
+
+      // const tileX = Math.floor((e.clientX - board.offsetLeft) / 80) + 1;
+      // const tileY = 8 - Math.floor((e.clientY - board.offsetTop) / 80);
+      // console.log(tileX, tileY);
+      // const elementHovered = document.getElementsByClassName(
+      //   `${tileX}${tileY}`,
+      // );
+
+      // elementHovered[0].style.border = "thick solid #0000FF";
     }
   }
 
@@ -71,7 +80,9 @@ function Board() {
       // tile width = 80px
       const x = Math.floor((e.clientX - board.offsetLeft) / 80) + 1;
       const y = 8 - Math.floor((e.clientY - board.offsetTop) / 80);
+
       console.log(x, y);
+      setKnightPosition({ x: x, y: y });
     }
   }
 
