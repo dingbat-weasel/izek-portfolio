@@ -1,11 +1,19 @@
-import { useRef } from "react";
+import { useContext, useRef } from "react";
 import Tile from "./Tile";
+import { KnightContext } from "../../pages/HorseyJump";
 
 function Board() {
+  const { knightPosition, setKnightPosition } = useContext(KnightContext);
+
+  const boardRef = useRef(null);
+
   let board = [];
   let activePiece = null;
 
-  const boardRef = useRef(null);
+  const pixelToCoordMap = {
+    0: 8,
+    1: 7,
+  };
 
   function grabPiece(e) {
     const element = e.target;
@@ -55,7 +63,16 @@ function Board() {
   }
 
   function dropPiece(e) {
-    if (activePiece) activePiece = null;
+    const board = boardRef.current;
+
+    // bug if board is partially absent from browser window visible area
+    if (activePiece && board) {
+      activePiece = null;
+      // tile width = 80px
+      const x = Math.floor((e.clientX - board.offsetLeft) / 80) + 1;
+      const y = 8 - Math.floor((e.clientY - board.offsetTop) / 80);
+      console.log(x, y);
+    }
   }
 
   const horizontalAxis = [1, 2, 3, 4, 5, 6, 7, 8];
