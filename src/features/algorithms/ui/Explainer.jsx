@@ -1,8 +1,10 @@
 function Explainer({ arr }) {
   return (
-    <div className="px-20 py-20">
+    <div className="px-20 py-20 ">
       {arr.map((p, i) => (
-        <p key={i}>{p}</p>
+        <p className="text-justify" key={i}>
+          {p}
+        </p>
       ))}
     </div>
   );
