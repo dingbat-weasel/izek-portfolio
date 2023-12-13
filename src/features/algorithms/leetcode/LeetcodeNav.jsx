@@ -1,19 +1,16 @@
 import { Link } from "react-router-dom";
 
 import { leetcode_problems } from "../data/leetcode";
+import NavLayout from "../ui/NavLayout";
+import Header from "../../../ui/Header";
 
 function LeetcodeNav() {
+  const leetcodeNavArr = ["Two Sum"];
+
   return (
-    <div className="grid grid-cols-4 grid-rows-3 gap-10">
-      {leetcode_problems.map((item, index) => (
-        <Link
-          className="rounded-md border border-slate-100 bg-slate-300 p-7"
-          to={`/algorithms/leetcode/${item.navigator}`}
-          key={index}
-        >
-          {item.title}
-        </Link>
-      ))}
+    <div>
+      <Header back />
+      <NavLayout navArr={leetcodeNavArr} />
     </div>
   );
 }
